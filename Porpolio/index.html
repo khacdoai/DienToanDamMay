@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <!-- Header with Navbar -->
+   <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+         <div class="container">
+            <a class="navbar-brand text-white" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link text-white" href="#introduction">Introduction</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!-- Introduction Section -->
+   <section id="introduction" class="section bg-light text-center py-5">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-5">
+               <img src="./images/1.jpg" class="img-fluid rounded-circle shadow-lg" alt="Huynh Thi Hoa"
+                  style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+            <div class="col-lg-7 text-left">
+               <h1 class="display-4" style="font-family: Pacifico;">Huỳnh Thị Hoa</h1>
+               <h3 class="text-primary">Quality Assurance</h3>
+               <p class="lead">Passionate about software testing and quality assurance, with expertise in manual and
+                  automation testing.</p>
+               <ul class="list-unstyled">
+                  <li><strong>Email:</strong> <a href="mailto:hoahuynh312k3@gmail.com">hoahuynh312k3@gmail.com</a></li>
+                  <li><strong>Phone:</strong> 0941285043</li>
+                  <li><strong>GitHub:</strong> <a href="https://github.com/sniperdarkness123"
+                        target="_blank">github.com/sniperdarkness123</a></li>
+                  <li><strong>Location:</strong> 124 Phu Dong, Hoa Phuoc, Hoa Vang, Da Nang</li>
+               </ul>
+               <a href="#projects" class="btn btn-primary mt-3">View My Projects</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- About Section -->
+   <section id="about" class="section text-white py-5" style="background-color: rgb(179 184 199);">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-6">
+               <img src="./images/3.jpg" class="img-fluid rounded shadow-lg" alt="My picture" style="width: 650px; height: 650px; object-fit: cover;">
+            </div>
+            <div class="col-lg-6">
+               <h2 style="color: rgb(230, 91, 165); font-size: 62px;"><b>Who Am I?</b></h2>
+               <p>Hello! My name is Hoa, and I’m a student at the Vietnam-Korea University of Information and Communication Technology,
+               majoring in software testing. I have a strong passion for analyzing, testing, and ensuring software quality, with a
+               particular interest in automated testing and system security. </p>
+               
+               <p>Beyond my studies, I enjoy exploring new technologies, learning about artificial intelligence, and cloud computing. In
+               my free time, I love reading books, listening to music, and watching movies. Currently, I’m improving my testing skills
+               to prepare for my future career while gaining hands-on experience through real-world projects.</p>
+
+               <p>I’m always eager to learn and connect with others who share a passion for technology. Looking forward to meeting and
+               collaborating with like-minded people!</p>
+               
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Skills Section -->
+   <section id="skills" class=" py-5 text-center">
+      <div class="container">
+         <h2 class="text" style="color: rgb(124, 13, 67); font-size: 50px;"><b>My Skills</b></h2>
+         <div class="row">
+            <div class="col-md-6">
+               <h3 class="text-dark"><b>Technical Skills</b></h3>
+               <p>Manual Testing, Automation Testing (Selenium, JMeter)</p>
+
+               <p>SQL, API Testing (Postman)</p>
+               
+               <p>Test Case Design, Test Plan, Bug Tracking (JIRA, TestRail)</p>
+               
+            </div>
+            <div class="col-md-6">
+               <h3 class="text-dark"><b>Technical Skills</b></h3>
+               <p>Problem Solving, Analytical Thinking
+               
+               <p>Communication, Teamwork</p>
+               
+               <p>Time Management, Attention to Detail</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Projects Section -->
+   <section id="projects" class="section bg-light text-center py-5">
+      <div class="container">
+         <h2 class="text" style="color: rgb(183, 72, 126); font-size: 50px" >Projects</h2>
+         <div class="row">
+            <div class="col-md-4">
+               <img src="./images/4.jpg" class="img-fluid rounded shadow-lg mb-3" alt="JS Games" style="width: 250px; height: 250px;">
+               <h3>Search Product By Photo App</h3>
+               <p>Công nghệ: AI-based Image Recognition</p>
+               
+               <p>Mô tả: Ứng dụng tìm kiếm sản phẩm thông qua ảnh chụp</p>
+            </div>
+            <div class="col-md-4">
+               <img src="./images/5.jpg" class="img-fluid rounded shadow-lg mb-3" alt="Tic Tac Toe">
+               <h3>Cloud Resource Provisioning with OpenStack</h3>
+               <p>Công nghệ: OpenStack, VMware</p>
+               
+               <p>Mô tả: Nghiên cứu và triển khai mô hình cung cấp tài nguyên trên nền tảng điện toán đám mây</p>
+            </div>
+            <div class="col-md-4" style="border: 1px;">
+               <img src="./images/6.png" class="img-fluid rounded shadow-lg mb-3" alt="Flappy Bird" style="width: 250px; height: 250px;">
+               <h3>English Study App</h3>
+               <p>Công nghệ: Mobile App, Firebase</p>
+               
+               <p>Mô tả: Ứng dụng học tiếng Anh với nhiều cấp độ và nội dung phong phú</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Contact Section -->
+   <footer id="contact" class="contract text-white py-4 text-center">
+      <h2>Get in Touch</h2>
+      <p>Email: <a href="hoaht.21it@vku.udn.vn" class="text-light">hoaht.21it@vku.udn.vn</a></p>
+      <p>Phone: +84 36287058</p>
+   </footer>
+
+   <!-- Back to Top Button -->
+   <button id="backToTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-3" title="Go to top">↑</button>
+
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Custom JS -->
+   <script>
+      const backToTopBtn = document.getElementById("backToTopBtn");
+
+      window.onscroll = function () {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopBtn.style.display = "block";
+         } else {
+            backToTopBtn.style.display = "none";
+         }
+      };
+
+      backToTopBtn.addEventListener("click", function () {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+      });
+   </script>
+</body>
+
+</html>
